@@ -1,0 +1,46 @@
+
+
+.gradient-background
+{
+    background: linear-gradient(-45deg, #7188F0, #AB6EF0, #8271F0, #4429F0);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    height: 100vh;   
+}
+
+.cover-container 
+{
+    max-width: 42em;
+}
+
+.header-text
+{
+    color: black !important;
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <style>
+        .projects-container
+        {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            color: white;
+        }
+        .projects-div
+        {
+            background-color: black;
+            border-radius: 5%;
+            width: 400px;
+            height: 400px;
+        }
+
+        @media (max-width: 990px)
+        {
+            .projects-container img
+            {
+                width: 350px;
+            }
+
+            .projects-div
+            {
+                width: 350px;
+                height: 350px;
+            }
+
+            p
+            {
+                font-size: small;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="header" class="d-flex h-100 text-center">
+        <div class="cover-container d-flex w-100 h-100 pt-4 mx-auto mb-4 flex-column">
+            <header class="mb-auto">
+                <div>
+                    <h3 class="float-md-start mb-0" style="color: black;">Projects</h3>
+                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                        <a class="nav-link fw-bold py-1 px-0 header-text" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link fw-bold py-1 px-0 header-text" href="about.html" >About</a>
+                        <a class="nav-link fw-bold py-1 px-0 active header-text" aria-current="page" href="projects.html" style="border-bottom-color: black;">Projects</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        </section>
+
+    <section id="projects">
+        <div class="gradient-background text-center projects-container">
+            <div class="projects-div my-4">
+                <h2>Legend of Zelda Tower Defense</h1>
+                <p class="px-2">This was a massive project split with 3 people between 1 computer programmer, 1 artist, and 1 3D modeler. This project was a 4-player online multiplayer game that utilized a VPS for hosting game servers and a database to contain server information for clients to retrieve to connect to the game server. Additionally, PHP and shell scripting was utilized to make life easier in the VPS side of things. Unfortunately, this project was canceled due to poor programming strategies and the scope of the limitations of the project. Here are some pictures and a link to our youtube down below!</p>
+                
+            </div>
+            <h2 class="projects-text my-1"><a href="https://www.youtube.com/@NicksinGames/videos">Youtube Link</a></h2>
+            <img src="../images/loztd/1500x500.jfif" alt="" width="600" class="my-4">
+            <img src="../images/loztd/BBA.png" alt="" width="600" class="my-4">
+            <img src="../images/loztd/sfm capture.PNG" alt="" width="600" class="my-4">
+            <img src="../images/loztd/Capture2222.PNG" alt="" width="600" class="my-4">
+
+            <hr width="100%">
+
+            <div class="projects-div my-4">
+                <h2>Project Aetheris</h2>
+                <p class="px-2">Project Aetheris is a singleplayer 3D open-world fantasy-rpg game that has been on and off in production over the past 3 years. It is a 4 person project split between 1 computer programmer, 1 artist, 1 3D modeler, and 1 music producer. Development is not expected to be picked back up at a constant pace until Q2 2025. Here are some pictures of the project</p>
+            </div>
+
+            <img src="../images/aetheris/flamus.png" alt="" width="600" class="my-4">
+            <img src="../images/aetheris/Aetheris_KnightMage.png" alt="" width="600" class="my-4">
+            <img src="../images/aetheris/mage_weapons.png" alt="" width="600" class="my-4">
+            <img src="../images/aetheris/aetheris_main_island.png" alt="" width="600" class="my-4">
+
+
+            
+        </div>
+    </section>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <img src="../images/logo crystal.png" alt="" width="30">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">Nicksin</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a href="https://x.com/TheNicksin"><img src="../images/twitter-x.svg" alt=""></a></li>
+        </footer>
+      </div>
+</body>
+</html>
